@@ -22,3 +22,9 @@ The .xml file has to be loaded in the Sentinel Application Platform (SNAP) softw
 Input: SLC dual-polarization IW S1 data 
 
 Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .img files (and associated .hdr files)
+
+---------------------------------------------------------------------
+
+NOTES:
+
+     1)
