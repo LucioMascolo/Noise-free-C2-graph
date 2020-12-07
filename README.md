@@ -1,5 +1,5 @@
 # Noise-free-C2-graph
-Removal of Thermal Noise from Polarimetric Sentinel-1 SAR Data in the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA)
+Removal of Thermal Noise from Polarimetric Sentinel-1 SAR Data using the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA)
 
 The processing graph is related to the approach proposed in the scientific work:
 
@@ -25,7 +25,7 @@ Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .img files (and assoc
 
 NOTES:
 
-     1) The .xml file available in this repository has been tested with SNAP 8, using a SLC dual-polarization VH-VV IW S1A image, collected on a sea area
+     1) The processing graph available in this repository has been tested in SNAP 8, using a SLC dual-polarization VH-VV IW S1A image, collected on a sea area
      The ID of the image is: S1A_IW_SLC__1SDV_20180603T182052_20180603T182119_022196_0266A4_F6CB.SAFE
      
      2) Only a Region of Intesrest (ROI) has been processed, by selecting bursts 3-5 (sub-swath IW1), and using the Subset operator.
