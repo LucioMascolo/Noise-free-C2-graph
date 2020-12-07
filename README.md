@@ -19,4 +19,4 @@ Description : remove thermal noise from Single Look Complex (SLC) dual-polariazt
 
 Input: SLC dual-polarization IW S1 data 
 
-Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .imgs files
+Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .imgs files (and associated .hdr files)
