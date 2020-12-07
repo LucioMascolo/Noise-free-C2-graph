@@ -31,3 +31,13 @@ NOTES:
      The S1 imae ID is: S1A_IW_SLC__1SDV_20180603T182052_20180603T182119_022196_0266A4_F6CB.SAFE
      
      2) Only a Region of Intesrest (ROI) has been processed, by selecting bursts 3-5, and using the Subset operator.
+     
+     3) In the Multilook operator, the number of range looks is set to 4, the number of azimuth looks is set to 1
+     
+ 
+ TO RUN THE PRESENT GRAPH IN SNAP:
+ 
+     1)
+ 
+     
+     
