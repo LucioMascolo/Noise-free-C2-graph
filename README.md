@@ -15,7 +15,7 @@ Creation : 09/2020
 
 ---------------------------------------------------------------------
 
-Description : remove thermal noise from Single Look Complex (SLC) dual-polarization Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR data
+DESCRIPTION: remove thermal noise from Single Look Complex (SLC) dual-polarization Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR data with the approach proposed in [Ref]
 
 The .xml file has to be loaded in the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA), in order to process S1 data
 
@@ -28,16 +28,24 @@ Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .img files (and assoc
 NOTES:
 
      1) The .xml file available in this repository has been tested with SNAP 8, using a SLC dual-polarization VH-VV IW S1A image, collected on a sea area
-     The S1 imae ID is: S1A_IW_SLC__1SDV_20180603T182052_20180603T182119_022196_0266A4_F6CB.SAFE
+     The ID of the image is: S1A_IW_SLC__1SDV_20180603T182052_20180603T182119_022196_0266A4_F6CB.SAFE
      
-     2) Only a Region of Intesrest (ROI) has been processed, by selecting bursts 3-5, and using the Subset operator.
+     2) Only a Region of Intesrest (ROI) has been processed, by selecting bursts 3-5 (sub-swath IW1), and using the Subset operator.
      
      3) In the Multilook operator, the number of range looks is set to 4, the number of azimuth looks is set to 1
      
  
- TO RUN THE PRESENT GRAPH IN SNAP:
+ TO RUN THE PROCESSING GRAPH IN SNAP
  
-     1)
+ - MANDATORY CHANGES
+   According to the image that has to be processed, the user must change:
+ 
+      1) The sub-swath and the bursts in the TOPSAR-Split operator, by selecting the sub-swath and the the bursts of interest
+     
+      2) The geographical coordinates of the ROI's polygon in the Subset operator, by updating the new coordinates relevant to ROI of interest
+  
+ 
+     
  
      
      
