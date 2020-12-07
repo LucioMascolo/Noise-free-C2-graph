@@ -14,3 +14,7 @@ Authors  : L. Mascolo, Juan Manuel Lopez-Snachez, Shane R. Cloude
 Creation : 10/2020
 
 ---------------------------------------------------------------------
+
+Description : remove thermal noise from Single Look Complex (SLC) dual-polariaztion Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR data
+
+Input: SLC dual-polarization IW S1 data 
