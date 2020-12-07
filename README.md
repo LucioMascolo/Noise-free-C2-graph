@@ -18,3 +18,5 @@ Creation : 10/2020
 Description : remove thermal noise from Single Look Complex (SLC) dual-polariaztion Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR data
 
 Input: SLC dual-polarization IW S1 data 
+
+Output: Noise-free C2 matrix-->  Folder containing the .img files associated to the .dim file)
