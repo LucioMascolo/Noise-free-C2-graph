@@ -1,5 +1,5 @@
 # Noise-free-C2-graph
-Removal of Thermal Noise from Polarimetric Sentinel-1 SAR Data using the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA)
+Removal of Thermal Noise form Single Look Complex (SLC) dual-polarization Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR using the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA)
 
 The processing graph is related to the approach proposed in the scientific work:
 
@@ -9,17 +9,13 @@ The processing graph is related to the approach proposed in the scientific work:
 
 File     : NoiseFree_C2_single_look.xml
 
-Authors  : L. Mascolo, Juan Manuel Lopez-Sanchez, Shane R. Cloude
-
-Creation : 09/2020
-
----------------------------------------------------------------------
-
-DESCRIPTION: remove thermal noise from Single Look Complex (SLC) dual-polarization Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR data with the approach proposed in [Ref]
-
 Input: SLC dual-polarization IW S1 data 
 
 Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .img files (and associated .hdr files)
+
+Authors  : L. Mascolo, Juan Manuel Lopez-Sanchez, Shane R. Cloude
+
+Creation : 09/2020
 
 ---------------------------------------------------------------------
 
