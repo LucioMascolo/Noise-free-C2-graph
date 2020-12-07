@@ -27,4 +27,7 @@ Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .img files (and assoc
 
 NOTES:
 
-     1)
+     1) The .xml file available in this repository has been tested with SNAP 8, using a SLC dual-polarization VH-VV IW S1A image, collected on a sea area
+     The S1 imae ID is: S1A_IW_SLC__1SDV_20180603T182052_20180603T182119_022196_0266A4_F6CB.SAFE
+     
+     2) Only a Region of Intesrest (ROI) has been processed, by selecting bursts 3-5, and using the Subset operator.
