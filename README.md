@@ -24,7 +24,7 @@ NOTES:
      1) The processing graph available in this repository has been tested in SNAP 8, using a SLC dual-polarization VH-VV IW S1A image, collected on a sea area
      The ID of the image is: S1A_IW_SLC__1SDV_20180603T182052_20180603T182119_022196_0266A4_F6CB.SAFE
      
-     2) Only a Region of Intesrest (ROI) has been processed, by selecting sub-swath IW1 and bursts 3-5, and using the Subset operator.
+     2) Only a Region of Intesrest (ROI) has been processed, by selecting sub-swath IW1 and bursts 3-5, and using the Subset operator
      
      3) In the Multilook operator, the number of range looks is set to 4, the number of azimuth looks is set to 1
     
