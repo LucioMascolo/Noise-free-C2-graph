@@ -1,5 +1,5 @@
 # Noise-free-C2-graph
-Removal of Thermal Noise from Polarimetric Sentinel-1 SAR Data
+Removal of Thermal Noise from Polarimetric Sentinel-1 SAR Data in the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA)
 
 The processing graph is related to the approach proposed in the scientific work:
 
@@ -17,8 +17,6 @@ Creation : 09/2020
 
 DESCRIPTION: remove thermal noise from Single Look Complex (SLC) dual-polarization Interferometric Wide Swath (IW) Sentinel-1 (S1) SAR data with the approach proposed in [Ref]
 
-The .xml file has to be loaded in the Sentinel Application Platform (SNAP) software by the European Space Agency (ESA), in order to process S1 data
-
 Input: SLC dual-polarization IW S1 data 
 
 Output: Noise-free C2 matrix, C11, C12_imag, C12_real, C22 .img files (and associated .hdr files)
@@ -33,13 +31,12 @@ NOTES:
      2) Only a Region of Intesrest (ROI) has been processed, by selecting bursts 3-5 (sub-swath IW1), and using the Subset operator.
      
      3) In the Multilook operator, the number of range looks is set to 4, the number of azimuth looks is set to 1
-     
- 
- TO RUN THE PROCESSING GRAPH IN SNAP
+    
+ BEFORE RUNNING THE PROCESSING GRAPH IN SNAP
  
  - MANDATORY CHANGES
  
- According to the image that has to be processed, the user must change:
+ According to the image (or the set of images) to be processed, the user must change:
  
       1) The sub-swath and the bursts in the TOPSAR-Split operator, by selecting the sub-swath and the the bursts of interest
      
@@ -49,9 +46,9 @@ NOTES:
   
   According to the user needs, the following changes can be applied:
   
-      1) The sub-swath and the bursts in the TOPSAR-Split operator, by selecting the sub-swath and the the bursts of interest
+      1) The Subset operator can be removed from the graph
      
-      2) The geographical coordinates of the ROI's polygon in the Subset operator, by updating the new coordinates relevant to ROI of interest
+      2) The number of range and azimuth looks in the Multilook oprator can be changed
 
   
   
