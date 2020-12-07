@@ -38,11 +38,22 @@ NOTES:
  TO RUN THE PROCESSING GRAPH IN SNAP
  
  - MANDATORY CHANGES
-   According to the image that has to be processed, the user must change:
+ 
+ According to the image that has to be processed, the user must change:
  
       1) The sub-swath and the bursts in the TOPSAR-Split operator, by selecting the sub-swath and the the bursts of interest
      
       2) The geographical coordinates of the ROI's polygon in the Subset operator, by updating the new coordinates relevant to ROI of interest
+  
+  - OPTIONAL CHANGES
+  
+  According to the user needs, the following changes can be applied:
+  
+      1) The sub-swath and the bursts in the TOPSAR-Split operator, by selecting the sub-swath and the the bursts of interest
+     
+      2) The geographical coordinates of the ROI's polygon in the Subset operator, by updating the new coordinates relevant to ROI of interest
+
+  
   
  
      
