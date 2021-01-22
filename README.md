@@ -3,7 +3,7 @@ Removal of Thermal Noise form Single Look Complex (SLC) dual-polarization Interf
 
 The processing graph allows implementing the approach proposed in the scientific work:
 
-[Ref] L. Mascolo, Juan Manuel Lopez-Sanchez, Shane R. Cloude, "Thermal Noise Removal from Polarimetric Sentinel-1 Data", IEEE Geoscience and Remote Sensing Letters, doi: https://doi.org/10.1109/LGRS.2021.3050921
+L. Mascolo, Juan Manuel Lopez-Sanchez, Shane R. Cloude, "Thermal Noise Removal from Polarimetric Sentinel-1 Data", IEEE Geoscience and Remote Sensing Letters, doi: https://doi.org/10.1109/LGRS.2021.3050921
 
 ---------------------------------------------------------------------
 
